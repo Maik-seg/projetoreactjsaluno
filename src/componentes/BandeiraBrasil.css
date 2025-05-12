@@ -1,0 +1,24 @@
+.bandeira-brasil {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    /* Degrade verde para azul */
+    background: linear-gradient(135deg, #009739 0%, #3e4095 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    position: relative;
+    overflow: hidden;
+}
+
+.bandeira-brasil img {
+    max-width: 80%;
+    max-height: 80%;
+    display: block;
+    margin: auto;
+}

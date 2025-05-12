@@ -1,0 +1,19 @@
+{
+  "name": "meu-site",
+  "version": "1.0.0",
+  "description": "Um site simples com um título 'Bem-vindo'.",
+  "main": "src/index.html",
+  "scripts": {
+    "start": "live-server src"
+  },
+  "keywords": [
+    "site",
+    "bem-vindo"
+  ],
+  "author": "Seu Nome",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}
